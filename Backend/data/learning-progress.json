@@ -1,0 +1,29 @@
+[
+  {
+    "studentId": "student-1",
+    "moduleId": "m2",
+    "title": "Science: Plant Life Cycles",
+    "subject": "Science",
+    "progress": 100,
+    "completed": true,
+    "updatedAt": "2026-09-11T21:06:48.509Z"
+  },
+  {
+    "studentId": "student-1",
+    "moduleId": "m1",
+    "title": "Intro to Integers",
+    "subject": "Mathematics",
+    "progress": 100,
+    "completed": true,
+    "updatedAt": "2026-09-12T02:28:24.894Z"
+  },
+  {
+    "studentId": "student-1",
+    "moduleId": "m3",
+    "title": "History: Ancient India",
+    "subject": "History",
+    "progress": 100,
+    "completed": true,
+    "updatedAt": "2026-09-12T03:43:46.787Z"
+  }
+]

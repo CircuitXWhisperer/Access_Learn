@@ -1,0 +1,22 @@
+{
+  "name": "accesslearn",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently --kill-others-on-fail \"npm --prefix Frontend run dev\" \"npm --prefix Backend run dev\"",
+    "dev:frontend": "npm --prefix Frontend run dev",
+    "dev:backend": "npm --prefix Backend run dev",
+    "build": "npm --prefix Frontend run build"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.5"
+  },
+  "dependencies": {
+    "@n8n/chat": "^1.37.2",
+    "axios": "^1.20.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "multer": "^2.3.0",
+    "openai": "^7.15.0",
+    "ws": "^8.21.3"
+  }
+}
